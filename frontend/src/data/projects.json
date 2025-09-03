@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "description": "Full-stack e-commerce solution with real-time analytics and payment processing",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+    "link": "#",
+    "featured": true
+  },
+  {
+    "id": "task-management-app",
+    "title": "Task Management App",
+    "description": "Cross-platform mobile app for team collaboration and project management",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    "technologies": ["React Native", "Firebase", "TypeScript", "Redux"],
+    "link": "#",
+    "featured": true
+  },
+  {
+    "id": "ai-analytics-dashboard",
+    "title": "AI Analytics Dashboard",
+    "description": "Machine learning powered analytics platform with predictive insights",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    "technologies": ["Python", "TensorFlow", "Django", "PostgreSQL", "Docker"],
+    "link": "#",
+    "featured": true
+  },
+  {
+    "id": "real-estate-portal",
+    "title": "Real Estate Portal",
+    "description": "Modern property listing platform with virtual tours and advanced search",
+    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    "technologies": ["Vue.js", "Laravel", "MySQL", "Google Maps API"],
+    "link": "#",
+    "featured": false
+  },
+  {
+    "id": "fintech-dashboard",
+    "title": "FinTech Dashboard",
+    "description": "Comprehensive financial management platform with real-time market data",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    "technologies": ["Angular", "Spring Boot", "PostgreSQL", "Redis"],
+    "link": "#",
+    "featured": false
+  },
+  {
+    "id": "social-media-app",
+    "title": "Social Media Platform",
+    "description": "Modern social networking app with real-time messaging and content sharing",
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    "technologies": ["React", "GraphQL", "Node.js", "WebSocket", "MongoDB"],
+    "link": "#",
+    "featured": false
+  }
+]
