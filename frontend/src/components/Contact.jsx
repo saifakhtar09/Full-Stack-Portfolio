@@ -212,7 +212,10 @@ export default function Contact() {
                 <FaEnvelope className="text-accent w-6 h-6" />
               </div>
               <h3 className="font-semibold mb-1 text-primaryText">Email</h3>
-              <p className="text-muted-foreground text-sm">saif@developer.com</p>
+              <p className="text-muted-foreground text-sm">git stash
+git pull origin main --rebase
+git stash pop
+@developer.com</p>
             </div>
 
             <div>
