@@ -124,7 +124,7 @@ export default function Contact() {
                   placeholder="Your full name"
                   autoComplete="name"
                   required
-                  className="w-full bg-input border border-border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-primaryText"
+                  className="w-full bg-input border border-border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-black"
                 />
               </div>
 
@@ -145,7 +145,7 @@ export default function Contact() {
                   placeholder="your@email.com"
                   autoComplete="email"
                   required
-                  className="w-full bg-input border border-border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-primaryText"
+                  className="w-full bg-input border border-border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent text-black"
                 />
               </div>
             </div>
@@ -212,10 +212,7 @@ export default function Contact() {
                 <FaEnvelope className="text-accent w-6 h-6" />
               </div>
               <h3 className="font-semibold mb-1 text-primaryText">Email</h3>
-              <p className="text-muted-foreground text-sm">git stash
-git pull origin main --rebase
-git stash pop
-@developer.com</p>
+              <p className="text-muted-foreground text-sm"> Saif111@gmail.com</p>
             </div>
 
             <div>
@@ -223,7 +220,7 @@ git stash pop
                 <FaPhone className="text-accent w-6 h-6" />
               </div>
               <h3 className="font-semibold mb-1 text-primaryText">Phone</h3>
-              <p className="text-muted-foreground text-sm">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground text-sm">+91 00000000000</p>
             </div>
 
             <div>

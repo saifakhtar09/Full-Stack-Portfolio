@@ -1,86 +1,91 @@
-import { FaCode, FaMobileAlt, FaCloud, FaPalette, FaRocket, FaChartLine, FaTachometerAlt, FaShieldAlt, FaExpandArrowsAlt, FaHeadset } from "react-icons/fa";
+import { 
+  FaCode, FaMobileAlt, FaCloud, FaRobot, FaPalette, 
+  FaRocket, FaChartLine, FaTachometerAlt, FaShieldAlt, 
+  FaExpandArrowsAlt, FaHeadset, FaJava 
+} from "react-icons/fa";
 
 export default function Services() {
   const services = [
     {
       id: 1,
       icon: <FaCode />,
-      title: 'Web Development',
-      description: 'Custom web applications built with modern frameworks and best practices',
+      title: 'Full-Stack Development',
+      description: 'Complete end-to-end applications with modern frontend and backend technologies.',
       features: [
-        'React & Vue.js Frontend',
-        'Node.js & Python Backend',
-        'Database Design & Optimization',
-        'API Development & Integration'
+        'React, Vite & Tailwind CSS Frontend',
+        'Node.js, Express & MongoDB Backend',
+        'Java & Spring Boot APIs',
+        'REST & GraphQL Development',
+        'Authentication & Security'
       ]
     },
     {
       id: 2,
       icon: <FaMobileAlt />,
-      title: 'Mobile Development',
-      description: 'Cross-platform mobile apps that provide native-like user experience',
+      title: 'Responsive & Mobile-Ready',
+      description: 'Seamless experiences across devices with responsive UI and cross-platform apps.',
       features: [
-        'React Native & Flutter',
-        'iOS & Android Development',
-        'App Store Optimization',
-        'Push Notifications & Analytics'
+        'React Native Mobile Apps',
+        'Pixel-Perfect Responsive Web',
+        'Cross-Browser Optimization',
+        'Performance Tuning'
       ]
     },
     {
       id: 3,
       icon: <FaCloud />,
-      title: 'Cloud Solutions',
-      description: 'Scalable cloud infrastructure and DevOps solutions for modern applications',
+      title: 'Cloud & Deployment',
+      description: 'Scalable deployment pipelines for modern applications and startups.',
       features: [
-        'AWS & Azure Deployment',
-        'Docker & Kubernetes',
+        'AWS & Vercel Hosting',
+        'Docker & Containerization',
         'CI/CD Pipeline Setup',
-        'Performance Monitoring'
+        'Monitoring & Scaling'
       ]
     },
     {
       id: 4,
-      icon: <FaPalette />,
-      title: 'UI/UX Design',
-      description: 'User-centered design that converts visitors into customers',
+      icon: <FaRobot />,
+      title: 'AI-Powered Solutions',
+      description: 'AI-driven features integrated into real-world applications.',
       features: [
-        'User Research & Wireframing',
-        'Responsive Design Systems',
-        'Prototype & User Testing',
-        'Brand Identity Design'
+        'Resume Analyzer with ATS Score',
+        'Job Recommendation Engine',
+        'OpenRouter AI Integration',
+        'Predictive Dashboards'
       ]
     },
     {
       id: 5,
-      icon: <FaRocket />,
-      title: 'MVP Development',
-      description: 'Rapid prototyping and MVP development to validate your business idea',
+      icon: <FaPalette />,
+      title: 'UI/UX Design',
+      description: 'Modern and user-friendly designs for better engagement and conversions.',
       features: [
-        'Product Strategy & Planning',
-        'Agile Development Process',
-        'User Feedback Integration',
-        'Market Validation Support'
+        'Wireframing & Prototyping',
+        'Design Systems with Tailwind',
+        'User-Centered Workflows',
+        'Brand Identity & Styling'
       ]
     },
     {
       id: 6,
-      icon: <FaChartLine />,
-      title: 'Consulting & Strategy',
-      description: 'Technical consulting to help you make informed technology decisions',
+      icon: <FaRocket />,
+      title: 'MVP & Startup Solutions',
+      description: 'Helping entrepreneurs bring ideas to life with fast and scalable MVPs.',
       features: [
-        'Technology Stack Selection',
-        'Architecture Design Review',
-        'Performance Optimization',
-        'Team Training & Mentoring'
+        'Rapid Prototyping',
+        'Agile Development',
+        'User Feedback Integration',
+        'Market-Ready Launch'
       ]
     }
   ];
 
   const deliveryItems = [
     { icon: <FaTachometerAlt />, title: 'Fast Delivery', description: 'MVP in 30 days or less', color: 'bg-green-500/20 text-green-500' },
-    { icon: <FaShieldAlt />, title: 'Quality Assurance', description: 'Thoroughly tested code', color: 'bg-blue-500/20 text-blue-500' },
-    { icon: <FaExpandArrowsAlt />, title: 'Scalable Solutions', description: 'Built for growth', color: 'bg-purple-500/20 text-purple-500' },
-    { icon: <FaHeadset />, title: 'Ongoing Support', description: '24/7 technical support', color: 'bg-yellow-500/20 text-yellow-500' },
+    { icon: <FaShieldAlt />, title: 'Quality Assurance', description: 'Bug-free, thoroughly tested code', color: 'bg-blue-500/20 text-blue-500' },
+    { icon: <FaExpandArrowsAlt />, title: 'Scalable Solutions', description: 'Built for long-term growth', color: 'bg-purple-500/20 text-purple-500' },
+    { icon: <FaHeadset />, title: 'Continuous Support', description: 'Reliable support & maintenance', color: 'bg-yellow-500/20 text-yellow-500' },
   ];
 
   return (
@@ -90,10 +95,10 @@ export default function Services() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Full-Stack <span className="text-accent">Design Expertise</span>
+              My <span className="text-accent">Expertise</span>
             </h2>
             <p className="text-xl max-w-3xl mx-auto text-gray-300">
-              Comprehensive development services to turn your vision into reality
+              Building intelligent, scalable, and user-focused applications.
             </p>
           </div>
 
@@ -127,7 +132,7 @@ export default function Services() {
               What I <span className="text-accent">Deliver</span>
             </h2>
             <p className="text-xl max-w-3xl mx-auto text-gray-300">
-              Results-driven solutions that help entrepreneurs succeed
+              Practical, high-performance solutions tailored for entrepreneurs & startups.
             </p>
           </div>
 

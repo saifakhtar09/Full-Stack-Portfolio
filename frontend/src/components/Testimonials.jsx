@@ -1,36 +1,39 @@
 export default function Testimonials() {
   const testimonials = [
- {
-  id: 1,
-  name: "Sarah Saifson",
-  role: "CEO, TechStart",
-  image: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
-  rating: 5,
-  text: "Saif transformed our startup idea into a scalable platform. His technical expertise and business understanding helped us secure our Series A funding."
-},
+    {
+      id: 1,
+      name: "Sarah Johnson",
+      role: "Product Manager, FinEdge",
+      image:
+        "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
+      rating: 5,
+      text: "Saif built a clean and scalable dashboard for our fintech app. He was quick to understand our requirements and suggested improvements that made the product more user-friendly. We received positive feedback from our first batch of users."
+    },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Founder, InnovateLab",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
+      name: "James Miller",
+      role: "Founder, EduVerse",
+      image:
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
       rating: 5,
-      text: "Working with Saif was a game-changer. He delivered our MVP in record time and helped us iterate based on user feedback. Highly recommended!"
+      text: "Working with Saif was effortless. He developed our learning platform’s MVP within weeks and guided us on technical decisions that saved us time and money. His responsiveness and problem-solving skills stood out."
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      role: "CTO, GrowthCo",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
+      name: "Emily Rodrigue",
+      role: "CTO, ShopEase",
+      image:
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200",
       rating: 5,
-      text: "Saif's full-stack expertise and attention to detail are exceptional. Our platform scales beautifully and our users love the experience."
+      text: "We hired Saif for our e-commerce project and he exceeded expectations. From setting up the backend APIs to designing a smooth shopping experience, everything was delivered on time. The site performance improved by 40% after his optimizations."
     }
   ];
 
   const renderStars = (rating) => {
     return Array.from({ length: 5 }, (_, i) => (
-      <i 
+      <i
         key={i}
-        className={`fas fa-star ${i < rating ? 'text-yellow-400' : 'text-gray-400'} transition-colors duration-300`}
+        className={`fas fa-star ${i < rating ? "text-yellow-400" : "text-gray-400"} transition-colors duration-300`}
       />
     ));
   };
@@ -43,10 +46,10 @@ export default function Testimonials() {
             Client <span className="text-primary">Success Stories</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-roboto">
-            What entrepreneurs are saying about working with me
+            A few words from people I’ve worked with
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {testimonials.map((testimonial) => (
             <div
@@ -55,25 +58,37 @@ export default function Testimonials() {
               data-testid={`testimonial-card-${testimonial.id}`}
             >
               <div className="flex items-center mb-6">
-                <img 
+                <img
                   src={testimonial.image}
                   alt={`${testimonial.name} - ${testimonial.role}`}
                   className="w-16 h-16 rounded-full object-cover border-2 border-primary mr-4"
                   data-testid={`testimonial-avatar-${testimonial.id}`}
                 />
                 <div>
-                  <h4 className="font-semibold text-lg font-poppins" data-testid={`testimonial-name-${testimonial.id}`}>
+                  <h4
+                    className="font-semibold text-lg font-poppins"
+                    data-testid={`testimonial-name-${testimonial.id}`}
+                  >
                     {testimonial.name}
                   </h4>
-                  <p className="text-sm text-muted-foreground font-roboto" data-testid={`testimonial-role-${testimonial.id}`}>
+                  <p
+                    className="text-sm text-muted-foreground font-roboto"
+                    data-testid={`testimonial-role-${testimonial.id}`}
+                  >
                     {testimonial.role}
                   </p>
                 </div>
               </div>
-              <div className="flex mb-4" data-testid={`testimonial-rating-${testimonial.id}`}>
+              <div
+                className="flex mb-4"
+                data-testid={`testimonial-rating-${testimonial.id}`}
+              >
                 {renderStars(testimonial.rating)}
               </div>
-              <p className="text-muted-foreground font-roboto text-md" data-testid={`testimonial-text-${testimonial.id}`}>
+              <p
+                className="text-muted-foreground font-roboto text-md"
+                data-testid={`testimonial-text-${testimonial.id}`}
+              >
                 {testimonial.text}
               </p>
             </div>
